@@ -31,7 +31,7 @@ const QuoteBox = () => {
   }, [quotes]);
 
   useEffect(() => {
-    fetchQuote(); // 初次加载时显示随机名言
+    fetchQuote(); 
   }, [fetchQuote]);
 
   return (
